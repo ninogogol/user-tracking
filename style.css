@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: #141D2F;
+}
+
+.container {
+    margin-bottom: 150px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 39px;
+    margin: 144px auto 35px;
+    width: 95%;
+    max-width: 730px;
+}
+
+select {
+    width: 95%;
+    max-width: 730px;
+    height: 69px;
+    background-color: #1E2A47;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #FFFFFF;
+    outline: none;
+    padding-left: 15px;
+    margin: 0 auto 24px;
+    display: block;
+    border-right: 15px solid #1E2A47;
+}
+
+#map {
+    width: 95%;
+    max-width: 730px;
+    height: 420px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.leaflet-popup-content-wrapper {
+    background-color: #1E2A47;
+    color: #FFFFFF;
+}
+
+.leaflet-popup-tip {
+    background-color: #1E2A47;
+}
